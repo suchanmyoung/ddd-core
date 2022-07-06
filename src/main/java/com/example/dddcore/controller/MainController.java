@@ -18,10 +18,4 @@ public class MainController {
         int hello = main.hello(1);
         return hello;
     }
-
-    @ExceptionHandler(ValueOneException.class)
-    public String exception(ValueOneException exception){
-        return String.valueOf(exception);
-    }
-
 }
